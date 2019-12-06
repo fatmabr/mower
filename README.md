@@ -16,9 +16,9 @@ The file format is as follow:
                         E : Est
                         O : Ouest
                     Second line represent a suite of instructions
-                        D = Right
-                        G = Left
-                        A = Forward
+                        R = Right
+                        L = Left
+                        F = Forward
 
 
 This program once runned it creates a thread which listen on events of file injection in a configured folder.
@@ -28,3 +28,4 @@ Installation steps:
 1- git checkout the sources.
 2- open the project with your favourite editor.
 3- configure the property "watched.file" in the /resources/config.properties.
+4- create the configured "watched.file" in your file system (otherwise the project won't compile)
